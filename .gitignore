@@ -1,0 +1,15 @@
+# Agent operational logs (local state, not tracked)
+.agent-log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
