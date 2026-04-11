@@ -1,6 +1,10 @@
 # Agent operational logs (local state, not tracked)
 .agent-log/
 
+# Agent working directories
+.scratch/
+.research/
+
 # Python
 __pycache__/
 *.pyc
