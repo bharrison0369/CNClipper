@@ -1,66 +1,60 @@
 # CNClipper
 
-Universal CNC module library for Klipper — waterjet, plasma, laser, mill, EDM, and more.
+Universal CNC module library for Klipper - waterjet, plasma, laser, mill, EDM, lathe, and more.
 
-CNClipper extends Klipper with CNC capabilities through `klippy/extras/` modules. No fork required — install alongside stock Klipper, configure only the modules you need.
+CNClipper extends Klipper with CNC capabilities through `klippy/extras/` modules. The project is addon-first: prefer stock Klipper plus reusable CNC modules, and only consider core patches or a fork if Phase 0 proves they are necessary.
 
 ## Status
 
-**Phase: Architecture Design** — defining module boundaries, APIs, and machine-type requirements before writing code.
+**Phase: Phase 0 scope lock and feasibility** - defining reusable CNC capabilities, repo boundaries, and implementation risk before writing code.
 
 ## What This Is
 
-A library of Klipper modules that adds CNC functionality:
+A library of Klipper modules that adds reusable CNC functionality:
 
-- **Core CNC features** — work coordinate systems (G54-G59), feed hold, real-time overrides, probing cycles
-- **Machine control** — spindle, coolant, tool management, output sequencing, safety interlocks
-- **Machine-specific modules** — waterjet, plasma, laser (CO2/fiber/diode), mill/router, EDM, lathe, and more
+- **Core CNC features** - work coordinate systems, probing, feed hold, coordinated I/O, overrides
+- **Machine control** - tool output, coolant / process outputs, tool management, sequencing, safety interlocks
+- **Shared abstractions** - capabilities that should not be reimplemented in every machine-specific repo
 
-Each module is a standard `klippy/extras/` Python file that only loads when referenced in `printer.cfg`. Zero impact on configurations that don't use it.
+Each module is a standard `klippy/extras/` Python file that only loads when referenced in `printer.cfg`. Configurations that do not use CNC features should not pay for them.
 
-## Architecture
+## Documentation
 
-```
-CNClipper/
-  core/         Tier 1 — Every CNC needs these
-  common/       Tier 2 — Most machines need, configure per type
-  machine/      Tier 3 — Shared by 2-3 machine classes
-  machines/     Tier 4 — Machine-specific modules
-```
+- [Phase 0 scope lock](docs/phase-0-scope-lock.md)
+- [Initial Phase 1 implementation plan](docs/plans/2026-04-11-phase1-core-primitives.md)
 
-See [docs/architecture.md](docs/architecture.md) for the full module design.
+## Repo Boundaries
 
-## Installation
+- `CNClipper` owns reusable CNC capabilities shared across machine classes.
+- Machine-specific `printer.cfg`, hardware mapping, and validation belong in machine repos.
+- Wazer-specific material stays in the `Wazer` repo.
+- UI work is out of scope here.
 
-> Not yet available — architecture design phase. Check back or watch this repo.
+## Machine Classes
 
-```ini
-# Future: add to moonraker.conf for auto-updates
-[update_manager CNClipper]
-type: git_repo
-path: ~/CNClipper
-origin: https://github.com/bharrison6/CNClipper.git
-```
+| Machine Class | Status |
+|---|---|
+| Waterjet | First proving target |
+| Plasma | Planned |
+| CO2 / Fiber / Diode Laser | Planned |
+| Mill / Router | Planned |
+| Wire EDM | Planned |
+| Sinker EDM | Planned |
+| Lathe | Planned |
+| Drag Knife | Planned |
+| Foam Cutter | Planned |
+| Pick and Place | Planned |
 
-## Machine Types
+Additional target classes under consideration include oxy-fuel, nibbler, hybrid additive / subtractive systems, 6-axis robots, welding, CMM, and wire bending. CNClipper does not need to implement every machine class directly; it needs to capture the shared controller capabilities that those machines reuse.
 
-| Machine | Module | Status |
-|---------|--------|--------|
-| Waterjet | `[waterjet]` | In Development |
-| Plasma | `[plasma]` | Planned |
-| CO2 / Fiber / Diode Laser | `[cnc_laser]` | Planned |
-| Mill / Router | Uses core + spindle + coolant | Planned |
-| Wire EDM | `[edm_wire]` | Planned |
-| Sinker EDM | `[edm_sinker]` | Planned |
-| Lathe | `[lathe]` | Planned |
-| Drag Knife | `[cnc_tangential]` | Planned |
-| Foam Cutter | Uses core + output_sequencer | Planned |
-| Pick and Place | `[pnp]` | Planned |
+## Validation
+
+Early validation is expected to start on existing working Klipper 3D printers for safe motion and API testing, followed by Wazer as the first real CNC proving target.
 
 ## Contributing
 
-This project is designed to be community-driven. Each machine type can be developed independently by someone with access to that hardware. See [docs/contributing.md](docs/contributing.md) and [docs/testing-status.md](docs/testing-status.md).
+This project is intended to be community-driven. The immediate work is Phase 0 scope lock and feasibility classification, followed by shared capability implementation once the boundaries are clear.
 
 ## License
 
-GPL-3.0 — same as Klipper.
+GPL-3.0 - same as Klipper.
