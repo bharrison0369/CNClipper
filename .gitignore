@@ -5,6 +5,9 @@
 .scratch/
 .research/
 
+# ACC local-only transcript store (never git-tracked, §12)
+.transcripts/
+
 # Python
 __pycache__/
 *.pyc
