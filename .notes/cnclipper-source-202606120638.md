@@ -1,16 +1,20 @@
 ---
 id: cnclipper-source-202606120638
 title: CNClipper — source entity and repo manifest
-type: reference
-schema_version: 1
+schema_version: 2
 created: 2026-06-12T06:38:00Z
 updated: 2026-06-12T06:38:00Z
 path: C:\GitHub\CNClipper
-status: dormant
+status: active
 account: personal
 reachable_via: local
 tags: [cnc, klipper, python, hobby, open-source]
 aliases: [cnc klipper, klipper cnc modules, cnclipper, cnc module library]
+lifecycle: paused
+artifact_kind: reference
+model: unattributed
+model_basis: unattributed
+author: claude
 ---
 
 # CNClipper — source entity and repo manifest
