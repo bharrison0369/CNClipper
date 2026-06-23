@@ -15,7 +15,7 @@ related: [cnclipper-source-202606120638]
 status: active
 supersedes: null
 confidence: 45
-source_basis: recovered-reconstruction
+source_basis: transcript
 human_edited: false
 sensitivity: normal
 decisions: []
