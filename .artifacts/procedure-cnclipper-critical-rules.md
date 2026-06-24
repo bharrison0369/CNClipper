@@ -5,7 +5,7 @@ memory_class: procedural
 schema_version: 2
 title: CNClipper critical rules (addon-first, machine-agnostic, repo boundary, safety, no-UI)
 created: 2026-06-23T19:00:00Z
-updated: 2026-06-23T19:00:00Z
+updated: 2026-06-23T21:30:00Z
 author: claude
 model: claude-opus-4-8
 model_basis: confirmed
@@ -26,7 +26,7 @@ source_basis: document
 
 ## Context
 
-These rules are the `@always` critical block from `.protocol.md`, each tracing to a design principle in `.standards.md` or the Phase 0 scope-lock doc. They are guardrails for any implementation or design work in this repo.
+These rules are the critical hard-rule block for the repo, each tracing to a design principle now carried by the decomposed standards artifacts ([[cnclipper-module-design-standards]], [[cnclipper-safety-standards]]) or the Phase 0 scope-lock doc (`docs/phase-0-scope-lock.md`). They are guardrails for any implementation or design work in this repo. (Originally distilled from the since-decomposed `.protocol.md`/`.standards.md` monoliths.)
 
 ## Rules
 

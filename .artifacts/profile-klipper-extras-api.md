@@ -3,7 +3,8 @@ id: klipper-extras-api
 title: Klipper klippy/extras/ module API
 schema_version: 2
 created: 2026-06-14T12:40:00Z
-updated: 2026-06-14T12:40:00Z
+updated: 2026-06-23T00:00:00Z
+edited_by: claude-opus-4-8 (2026-06-23, schema fix — semantic_kind state→entity_profile; content unchanged)
 valid_until: null
 author: claude
 session: null
@@ -25,7 +26,7 @@ provenance:
   precision-judge: claude-sonnet-4-6
 artifact_kind: memory
 memory_class: semantic
-semantic_kind: state
+semantic_kind: entity_profile
 scope: CNClipper
 ---
 
