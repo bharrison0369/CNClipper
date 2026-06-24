@@ -73,6 +73,6 @@ The goal: stock Klipper + CNClipper + a machine-specific repo together give a co
 
 ## Relations
 
-- relates-to [[cnclipper-source-202606120638]] (repo manifest / orientation)
+- relates-to [[cnclipper-source]] (repo manifest / orientation)
 - relates-to [[cnclipper-critical-rules]] (rules constraining this work)
 - relates-to [[rs274-ngc-standard]] (standard the Phase 1 modules trace to)

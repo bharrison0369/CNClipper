@@ -67,7 +67,7 @@ Standards are default guardrails, not a ban on new ideas. Agents may propose cha
 
 ## Relations
 
-- relates-to [[cnclipper-source-202606120638]] (repo these standards govern)
+- relates-to [[cnclipper-source]] (repo these standards govern)
 - relates-to [[cnclipper-critical-rules]] (the hard-rule summary of these)
 - relates-to [[rs274-ngc-standard]] (the CNC naming/behavior reference these defer to)
 - relates-to [[cnclipper-safety-standards]] (safety section of the same standards file)

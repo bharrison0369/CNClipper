@@ -56,5 +56,5 @@ The M64/M65/M66/M68 I/O M-codes used in `cnc_io.py` come directly from LinuxCNC'
 
 ## Relations
 
-- relates-to [[cnclipper-source-202606120638]] (standard referenced for this repo's I/O module design)
+- relates-to [[cnclipper-source]] (standard referenced for this repo's I/O module design)
 - relates-to [[rs274-ngc-standard]] (primary standard; LinuxCNC extends it)

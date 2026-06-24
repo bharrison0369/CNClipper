@@ -38,7 +38,7 @@ These rules are the critical hard-rule block for the repo, each tracing to a des
 
 ## Relations
 
-- relates-to [[cnclipper-source-202606120638]] (repo this governs)
+- relates-to [[cnclipper-source]] (repo this governs)
 - relates-to [[rs274-ngc-standard]] (naming/behavior reference for the machine-agnostic rule)
 - relates-to [[cnclipper-module-design-standards]] (the design rules these summarize)
 - relates-to [[cnclipper-safety-standards]] (full safety section)

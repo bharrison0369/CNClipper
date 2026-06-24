@@ -38,6 +38,6 @@ The Safety / Warnings section of `.standards.md`, governing any module that cont
 
 ## Relations
 
-- relates-to [[cnclipper-source-202606120638]] (repo this governs)
+- relates-to [[cnclipper-source]] (repo this governs)
 - relates-to [[cnclipper-critical-rules]] (where this appears as a protocol hard rule)
 - relates-to [[cnclipper-module-design-standards]] (rest of the same standards file)

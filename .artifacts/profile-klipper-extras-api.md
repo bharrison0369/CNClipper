@@ -62,5 +62,5 @@ Modules are discovered by Klipper when referenced in `printer.cfg` as a config s
 
 ## Relations
 
-- relates-to [[cnclipper-source-202606120638]] (this is the API the repo is built on)
+- relates-to [[cnclipper-source]] (this is the API the repo is built on)
 - relates-to [[klipper-firmware]] (the firmware whose extras API this describes)

@@ -1,5 +1,5 @@
 ---
-id: cnclipper-source-202606120638
+id: cnclipper-source
 title: CNClipper — source entity and repo manifest
 schema_version: 2
 created: 2026-06-12T06:38:00Z
@@ -9,7 +9,7 @@ status: active
 account: personal
 reachable_via: local
 tags: [cnc, klipper, python, hobby, open-source]
-aliases: [cnc klipper, klipper cnc modules, cnclipper, cnc module library]
+aliases: [cnclipper-source-202606120638, cnc klipper, klipper cnc modules, cnclipper, cnc module library]
 lifecycle: paused
 artifact_kind: reference
 model: unattributed
@@ -58,4 +58,4 @@ Sibling: `Wazer` repo (Wazer-specific `printer.cfg`, hardware mapping, validatio
 - [[klipper-extras-api]] (the API this repo is built on)
 - [[rs274-ngc-standard]] (standard mandated for this repo's module APIs)
 - [[linuxcnc-reference]] (standard referenced for this repo's I/O module design)
-- [[recovered-2026-04-11-d5e20ea7]] (Phase 1 planning session)
+- [[machine-agnostic-design-phase1-plan]] (Phase 1 planning session)

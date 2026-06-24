@@ -11,7 +11,7 @@ session: recovered-d5e20ea7
 original_session_date: 2026-04-11
 tags: [recovered, reconstructed, cnclipper, klipper, cnc, architecture, design]
 aliases: [recovered-2026-04-11-d5e20ea7]
-related: [cnclipper-source-202606120638]
+related: [cnclipper-source]
 status: active
 supersedes: null
 confidence: 45
@@ -51,7 +51,7 @@ CNClipper changelog `[2026-04-11 15:30]` CLAUDE [DESIGN]:
 Plan file `C:\GitHub\CNClipper\docs\plans\2026-04-11-phase1-core-primitives.md` — exists; created at 15:30 by the later session.
 
 Curated note xref:
-- `[[cnclipper-source-202606120638]]` — machine-agnostic design principle, 3-machine-type validation rule, Phase 1 plan reference
+- `[[cnclipper-source]]` — machine-agnostic design principle, 3-machine-type validation rule, Phase 1 plan reference
 
 **Important attribution note:** File modifications (STANDARDS.md update, plan creation) were executed by session a02ca962 (09:48–17:55 on 2026-04-11). This session generated the design discussion that seeded them; it produced no committed artifact of its own within its 05:44–06:25 active window.
 

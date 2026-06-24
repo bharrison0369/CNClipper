@@ -54,5 +54,5 @@ The standard is the primary authority; LinuxCNC's documentation is the secondary
 
 ## Relations
 
-- relates-to [[cnclipper-source-202606120638]] (standard mandated for this repo's module APIs)
+- relates-to [[cnclipper-source]] (standard mandated for this repo's module APIs)
 - relates-to [[linuxcnc-reference]] (secondary reference for CNC controller semantics)
