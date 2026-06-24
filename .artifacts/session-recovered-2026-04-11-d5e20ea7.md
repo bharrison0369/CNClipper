@@ -22,6 +22,7 @@ decisions: []
 artifact_kind: memory
 memory_class: episodic
 semantic_kind: state
+scope: CNClipper
 ---
 
 > **PROVENANCE GUARD** — This is a recovered digest, NOT a verbatim transcript. Assistant responses are permanently deleted. The 7 user prompts are ground truth. Changelog entries at 14:30 and 15:30 are indirect artifact evidence — they cite "Key design discussion with user" that corresponds to this session's 05:44–06:25 window, but those entries were written during a later session (a02ca962).

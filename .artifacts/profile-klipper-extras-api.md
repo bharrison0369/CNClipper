@@ -26,6 +26,7 @@ provenance:
 artifact_kind: memory
 memory_class: semantic
 semantic_kind: state
+scope: CNClipper
 ---
 
 # Klipper klippy/extras/ module API

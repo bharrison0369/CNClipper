@@ -27,6 +27,7 @@ lifecycle: active
 artifact_kind: memory
 memory_class: semantic
 semantic_kind: entity_profile
+scope: CNClipper
 ---
 
 # LinuxCNC (CNC controller reference)

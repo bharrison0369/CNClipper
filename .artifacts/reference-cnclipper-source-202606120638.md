@@ -15,6 +15,7 @@ artifact_kind: reference
 model: unattributed
 model_basis: unattributed
 author: claude
+scope: CNClipper
 ---
 
 # CNClipper — source entity and repo manifest
