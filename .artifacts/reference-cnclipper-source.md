@@ -12,8 +12,8 @@ tags: [cnc, klipper, python, hobby, open-source]
 aliases: [cnclipper-source-202606120638, cnc klipper, klipper cnc modules, cnclipper, cnc module library]
 lifecycle: paused
 artifact_kind: reference
-model: unattributed
-model_basis: unattributed
+model: claude-opus-4-8
+model_basis: confirmed
 edited_by: claude-opus-4-8 (2026-06-23, decomposition-staleness remediation — repointed deleted-monolith body refs, backfilled Mentioned by)
 author: claude
 scope: CNClipper
