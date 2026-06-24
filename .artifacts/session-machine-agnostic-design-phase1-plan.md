@@ -1,5 +1,5 @@
 ---
-id: recovered-2026-04-11-d5e20ea7
+id: machine-agnostic-design-phase1-plan
 title: "Recovered: CNClipper machine-agnostic design principle discussion + Phase 1 plan seeding"
 model: claude-sonnet-4-6
 model_basis: confirmed
@@ -10,7 +10,7 @@ updated: 2026-06-21T00:00:00Z
 session: recovered-d5e20ea7
 original_session_date: 2026-04-11
 tags: [recovered, reconstructed, cnclipper, klipper, cnc, architecture, design]
-aliases: []
+aliases: [recovered-2026-04-11-d5e20ea7]
 related: [cnclipper-source-202606120638]
 status: active
 supersedes: null
