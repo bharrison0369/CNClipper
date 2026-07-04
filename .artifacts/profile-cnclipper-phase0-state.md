@@ -16,7 +16,7 @@ load_profile: scope_entry
 scope: CNClipper
 source_rel: CNClipper\.project-context.md
 tags: [cnclipper, cnc, phase-0, capability-matrix, roadmap]
-aliases: [cnclipper phase 0, cnclipper open work, cnclipper capability candidates, cnclipper machine classes]
+aliases: [cnclipper phase 0, cnclipper open work, cnclipper capability candidates, cnclipper machine classes, cnclipper]
 entities: [cnclipper]
 source_basis: document
 ---
