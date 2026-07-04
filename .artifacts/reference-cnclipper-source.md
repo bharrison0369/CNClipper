@@ -17,6 +17,7 @@ model_basis: confirmed
 edited_by: claude-opus-4-8 (2026-06-23, decomposition-staleness remediation — repointed deleted-monolith body refs, backfilled Mentioned by)
 author: claude
 scope: CNClipper
+load_profile: on_demand
 ---
 
 # CNClipper — source entity and repo manifest

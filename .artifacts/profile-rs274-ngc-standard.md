@@ -28,6 +28,7 @@ artifact_kind: memory
 memory_class: semantic
 semantic_kind: entity_profile
 scope: CNClipper
+load_profile: on_demand
 ---
 
 # RS274/NGC G-code standard
